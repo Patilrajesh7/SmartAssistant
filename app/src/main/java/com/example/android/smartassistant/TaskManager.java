@@ -2,6 +2,7 @@ package com.example.android.smartassistant;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -68,6 +69,11 @@ public class TaskManager extends AppCompatActivity {
                 binding.weTask1.setVisibility(View.GONE);
                 weekVis = false;
             }
+        });
+
+        binding.fab.setOnClickListener(v -> {
+            Intent intent = new Intent(TaskManager.this , CreateTask.class);
+            startActivity(intent);
         });
     }
 }
