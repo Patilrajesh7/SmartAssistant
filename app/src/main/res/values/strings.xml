@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">SmartAssistant</string>
+    <!--    <string name="title_activity_login">LoginActivity</string>-->
+    <!--     Names of 6 Categories-->
+
+    <string name="cat1">Banking</string>
+    <string name="cat2">Payment Renewal</string>
+    <string name="cat3">Meeting</string>
+    <string name="cat4">Call Client</string>
+    <string name="cat5">Client Meeting</string>
+    <string name="cat6">Personal Work</string>
+
 </resources>
