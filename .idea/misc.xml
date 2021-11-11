@@ -3,7 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/drawable/circal.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/drawable/custom.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/drawable/gradiant1.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/drawable/gradiant2.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/drawable/gradiant3.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/drawable/gradiant4.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/drawable/header.xml" value="0.16018518518518518" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/drawable/line.xml" value="0.1" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/drawable/share.xml" value="0.15462962962962962" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/drawable/taskm.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/drawable/to_do.xml" value="0.15462962962962962" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/layout/activity_authentication.xml" value="0.22" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/layout/activity_birthaday_wishese.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/layout/activity_complited_task.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/layout/activity_dashboard.xml" value="0.22" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/layout/activity_dashboard1.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/layout/activity_drawer.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/layout/activity_festival_wishes.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/layout/activity_header.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/layout/activity_personal_details.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/layout/activity_profile_settings.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/layout/activity_splash_screen.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/sundr/AndroidStudioProjects/gaxa_intenship/app/src/main/res/layout/activity_task_manager.xml" value="0.17552083333333332" />
       </map>
     </option>
   </component>
