@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.SmartAssistant" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.SmartAssistant" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">#56C3BE</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
