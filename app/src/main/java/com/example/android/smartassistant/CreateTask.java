@@ -147,7 +147,7 @@ public class CreateTask extends AppCompatActivity implements TaskDescriptionDial
             notif("Please Select Category");
         }else{
             mTitle = binding.etTitle.getText().toString();
-            Intent intent = new Intent(CreateTask.this,MainActivity.class);   //Testing purpose
+//            Intent intent = new Intent(CreateTask.this,MainActivity.class);   //Testing purpose
 //            notif("Title :"+mTitle+"\n" +
 //                       "Date  :"+mDay+"-"+mMonth+"-"+mYear+"\n" +
 //                       "StartTime :"+startTime+"\n" +
@@ -160,7 +160,7 @@ public class CreateTask extends AppCompatActivity implements TaskDescriptionDial
                     "entTime :"+endTime+"\n" +
                     "description :"+mDesc+"\n" +
                     "Category :"+mCategory);
-            startActivity(intent);
+//            startActivity(intent);
             finish();
         }
 
