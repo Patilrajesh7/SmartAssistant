@@ -3,7 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/drawable/button_shape.xml" value="0.22447916666666667" />
+        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/drawable/category_button.xml" value="0.22447916666666667" />
+        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/drawable/create_task_down.xml" value="0.22447916666666667" />
+        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/drawable/create_task_gradient_up.xml" value="0.17239583333333333" />
+        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/drawable/creatte_task_down.xml" value="0.22447916666666667" />
+        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/drawable/ic_baseline_keyboard_backspace_24.xml" value="0.22447916666666667" />
+        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/layout/activity_create_task.xml" value="0.25" />
         <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/layout/activity_main.xml" value="0.17395833333333333" />
+        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/layout/activity_task_manager.xml" value="0.17864583333333334" />
+        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/layout/create_task_desc_dailog.xml" value="0.20833333333333334" />
+        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/layout/task_item.xml" value="0.19270833333333334" />
       </map>
     </option>
   </component>

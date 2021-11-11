@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartAssistant">
         <activity
+            android:name=".TaskManager"
+            android:exported="false" />
+        <activity
+            android:name=".CreateTask"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
