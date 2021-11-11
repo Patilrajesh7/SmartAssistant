@@ -9,12 +9,44 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartAssistant">
+
+        <activity
+            android:name=".profile_settings"
+            android:exported="false" />
+        <activity
+            android:name=".splashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".festivalWishes"
+            android:exported="false" />
+        <activity
+            android:name=".BirthadayWishese"
+            android:exported="false" />
+        <activity
+            android:name=".ComplitedTask"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".Personal_Details"
+            android:exported="true" />
         <activity
             android:name=".TaskManager"
             android:exported="false" />
         <activity
             android:name=".CreateTask"
             android:exported="false" />
+
     </application>
 
 </manifest>

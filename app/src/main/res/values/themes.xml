@@ -11,7 +11,7 @@
 <!--        <item name="colorOnSecondary">#8E24AA</item>-->
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        <!-- C34ustomize your theme here. -->
     </style>
 
     <style name="Theme.SmartAssistant.NoActionBar">

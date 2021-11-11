@@ -3,17 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/drawable/button_shape.xml" value="0.22447916666666667" />
-        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/drawable/category_button.xml" value="0.22447916666666667" />
-        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/drawable/create_task_down.xml" value="0.22447916666666667" />
-        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/drawable/create_task_gradient_up.xml" value="0.17239583333333333" />
-        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/drawable/creatte_task_down.xml" value="0.22447916666666667" />
-        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/drawable/ic_baseline_keyboard_backspace_24.xml" value="0.22447916666666667" />
-        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/layout/activity_create_task.xml" value="0.25" />
-        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/layout/activity_main.xml" value="0.17395833333333333" />
-        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/layout/activity_task_manager.xml" value="0.17864583333333334" />
-        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/layout/create_task_desc_dailog.xml" value="0.20833333333333334" />
-        <entry key="..\:/Internship/GaxaEnterPrises/app/src/main/res/layout/task_item.xml" value="0.19270833333333334" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/drawable/don.xml" value="0.14583333333333334" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/drawable/festival.xml" value="0.14583333333333334" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/drawable/share.xml" value="0.14583333333333334" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/drawable/taskmanager.xml" value="0.14583333333333334" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/activity_birthaday_wishese.xml" value="0.1296875" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/activity_completed_task.xml" value="0.1296875" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/activity_create_task.xml" value="0.1296875" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/activity_dashboard.xml" value="0.1296875" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/activity_festival_wishes.xml" value="0.1296875" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/activity_personal_details.xml" value="0.1296875" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/activity_profile_settings.xml" value="0.1296875" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/activity_splash_screen.xml" value="0.1296875" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/activity_task_manager.xml" value="0.184375" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/task_item.xml" value="0.12239583333333333" />
       </map>
     </option>
   </component>

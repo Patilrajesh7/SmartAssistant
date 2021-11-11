@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 import com.example.android.smartassistant.databinding.ActivityCreateTaskBinding;
 import com.example.android.smartassistant.databinding.ActivityTaskManagerBinding;
@@ -71,10 +73,23 @@ public class TaskManager extends AppCompatActivity {
             }
         });
 
-
-        binding.fab.setOnClickListener(v -> {
+        Button button = findViewById(R.id.button);
+        button.setOnClickListener( v -> {
             Intent intent = new Intent(TaskManager.this , CreateTask.class);
             startActivity(intent);
+            Toast.makeText(this, "Clicked", Toast.LENGTH_SHORT).show();
         });
+
+//        binding.button.setOnClickListener( v -> {
+//            Intent intent = new Intent(TaskManager.this , CreateTask.class);
+//            startActivity(intent);
+//            Toast.makeText(this, "Clicked", Toast.LENGTH_SHORT).show();
+//        });
+
+
+//        binding.fab.setOnClickListener(v -> {
+//            Intent intent = new Intent(TaskManager.this , CreateTask.class);
+//            startActivity(intent);
+//        });
     }
 }
