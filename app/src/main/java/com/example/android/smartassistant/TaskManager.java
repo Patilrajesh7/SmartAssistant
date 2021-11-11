@@ -71,6 +71,7 @@ public class TaskManager extends AppCompatActivity {
             }
         });
 
+
         binding.fab.setOnClickListener(v -> {
             Intent intent = new Intent(TaskManager.this , CreateTask.class);
             startActivity(intent);
