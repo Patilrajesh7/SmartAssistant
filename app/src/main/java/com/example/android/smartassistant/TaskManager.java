@@ -1,6 +1,8 @@
 package com.example.android.smartassistant;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,8 +10,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.android.smartassistant.adapters.TaskViewAdapter;
 import com.example.android.smartassistant.databinding.ActivityCreateTaskBinding;
 import com.example.android.smartassistant.databinding.ActivityTaskManagerBinding;
+import com.example.android.smartassistant.fragments.MonthlyFragment;
+import com.example.android.smartassistant.fragments.TodayFragment;
+import com.example.android.smartassistant.fragments.TomorrowFragment;
+import com.example.android.smartassistant.fragments.WeeklyFragment;
+import com.google.android.material.tabs.TabLayout;
 
 public class TaskManager extends AppCompatActivity {
 
@@ -18,78 +26,29 @@ public class TaskManager extends AppCompatActivity {
             tomVis = false,
             weekVis = false,
             monthVis = false;
+
+    TaskViewAdapter taskViewAdapter;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         binding = ActivityTaskManagerBinding.inflate(getLayoutInflater());
-        setContentView(R.layout.activity_task_manager);
+        setContentView(binding.getRoot());
 
-        binding.todayH1.setOnClickListener( v -> {
-            if(!todayVis){
-                todayVis = true;
-//                binding.today.setVisibility(View.VISIBLE);
-                binding.toTask1.setVisibility(View.VISIBLE);
-                binding.toTask2.setVisibility(View.VISIBLE);
-                binding.toTask3.setVisibility(View.VISIBLE);
-            }
-            else{
-                binding.toTask1.setVisibility(View.GONE);
-                binding.toTask2.setVisibility(View.GONE);
-                binding.toTask3.setVisibility(View.GONE);
-                todayVis = false;
-            }
-        });
+        binding.taskTabs.setupWithViewPager(binding.taskViewPager);
 
-        binding.tomorrowH1.setOnClickListener( v -> {
-            if(!tomVis){
-                tomVis = true;
-                binding.tomTask1.setVisibility(View.VISIBLE);
-                binding.tomTask2.setVisibility(View.VISIBLE);
-            }else{
-                binding.tomTask1.setVisibility(View.GONE);
-                binding.tomTask2.setVisibility(View.GONE);
-                tomVis = false;
-            }
-        });
+        taskViewAdapter = new TaskViewAdapter(getSupportFragmentManager() , FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
+        taskViewAdapter.addFragment(new TodayFragment(),"Today");
+        taskViewAdapter.addFragment(new TomorrowFragment(),"Tomorrow");
+        taskViewAdapter.addFragment(new WeeklyFragment(),"Weekly");
+        taskViewAdapter.addFragment(new MonthlyFragment(),"Monthly");
+        binding.taskViewPager.setAdapter(taskViewAdapter);
 
-        binding.monthlyH1.setOnClickListener( v -> {
-            if(!monthVis){
-                monthVis = true;
-                binding.moTask1.setVisibility(View.VISIBLE);
-            }else{
-                binding.moTask1.setVisibility(View.GONE);
-                monthVis = false;
-            }
-        });
-
-        binding.weeklyH1.setOnClickListener( v -> {
-            if(!weekVis){
-                weekVis = true;
-                binding.weTask1.setVisibility(View.VISIBLE);
-            }else{
-                binding.weTask1.setVisibility(View.GONE);
-                weekVis = false;
-            }
-        });
-
-        Button button = findViewById(R.id.button);
-        button.setOnClickListener( v -> {
-            Intent intent = new Intent(TaskManager.this , CreateTask.class);
+        binding.createTask.setOnClickListener(v -> {
+            Intent intent = new Intent(TaskManager.this,CreateTask.class);
             startActivity(intent);
-            Toast.makeText(this, "Clicked", Toast.LENGTH_SHORT).show();
         });
-
-//        binding.button.setOnClickListener( v -> {
-//            Intent intent = new Intent(TaskManager.this , CreateTask.class);
-//            startActivity(intent);
-//            Toast.makeText(this, "Clicked", Toast.LENGTH_SHORT).show();
-//        });
-
-
-//        binding.fab.setOnClickListener(v -> {
-//            Intent intent = new Intent(TaskManager.this , CreateTask.class);
-//            startActivity(intent);
-//        });
     }
 }
