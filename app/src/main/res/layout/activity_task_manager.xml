@@ -21,13 +21,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
                 android:text="Task Manager"
+                android:textSize="30sp"
                 android:textStyle="bold"
-                android:textSize="30sp"/>
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -35,216 +34,92 @@
 
 
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
+<!--    <View-->
+<!--        android:id="@+id/divider"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tab_wrapper"-->
+<!--        android:background="@color/white"/>-->
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/task_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="616dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_margin="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tab_wrapper" />
+
+    <LinearLayout
+        android:id="@+id/tab_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingBottom="10dp"
+        android:paddingTop="8dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:elevation="20dp"
+        android:background="@drawable/tab_theme"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/task_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            android:layout_marginTop="10dp"
+            android:outlineProvider="none"
+            app:tabInlineLabel="false"
+            app:tabSelectedTextColor="@color/black"
+            app:tabIndicator="@color/white"
+            android:allowClickWhenDisabled="true"
+            style="@style/MyCustomTextAppearance"
+            android:scrollbarAlwaysDrawHorizontalTrack="true"
+            app:tabBackground="@drawable/tab_selector">
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Today"/>
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Tomorrow"/>
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Week"/>
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Month"/>
+
+        </com.google.android.material.tabs.TabLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/create_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:text="Create Task"
+        android:background="@drawable/button_shape"
         android:textColor="@color/white"
-        android:background="@drawable/button_shape"/>
-
-   <LinearLayout
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:layout_marginTop="20dp"
-       android:orientation="vertical"
-       app:layout_constraintTop_toBottomOf="@+id/toolbar">
-
-       <TextView
-           android:id="@+id/today_h1"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:text="Today"
-           android:layout_marginStart="20dp"
-           android:textStyle="bold"
-           android:textSize="26sp"/>
-
-       <TextView
-           android:id="@+id/to_task1"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           app:layout_constraintTop_toTopOf="parent"
-           app:layout_constraintBottom_toBottomOf="parent"
-           app:layout_constraintStart_toStartOf="parent"
-           android:layout_marginStart="40dp"
-           android:layout_marginTop="10dp"
-           android:textSize="20sp"
-           android:textColor="@color/black"
-           android:text="Meeting With Client."/>
-
-       <TextView
-           android:id="@+id/to_task2"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           app:layout_constraintTop_toTopOf="parent"
-           app:layout_constraintBottom_toBottomOf="parent"
-           app:layout_constraintStart_toStartOf="parent"
-           android:layout_marginStart="40dp"
-           android:layout_marginTop="10dp"
-           android:textSize="20sp"
-           android:textColor="@color/black"
-           android:text="Meeting With Client."/>
-       <TextView
-           android:id="@+id/to_task3"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           app:layout_constraintTop_toTopOf="parent"
-           app:layout_constraintBottom_toBottomOf="parent"
-           app:layout_constraintStart_toStartOf="parent"
-           android:layout_marginStart="40dp"
-           android:layout_marginTop="10dp"
-           android:textSize="20sp"
-           android:textColor="@color/black"
-           android:text="Meeting With Client."/>
-
-<!--       <LinearLayout-->
-<!--           android:id="@+id/today_tasks"-->
-<!--           android:layout_width="match_parent"-->
-<!--           android:layout_height="wrap_content"-->
-<!--           android:layout_marginTop="10dp"-->
-<!--           android:orientation="vertical"-->
-<!--           android:padding="8dp"-->
-<!--           android:visibility="gone">-->
-
-<!--           <include layout="@layout/task_item"/>-->
-<!--           <include layout="@layout/task_item"/>-->
-<!--           <include layout="@layout/task_item"/>-->
-<!--           <include layout="@layout/task_item"/>-->
-<!--       </LinearLayout>-->
-
-       <TextView
-           android:id="@+id/tomorrow_h1"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:text="Tomorrow"
-           android:layout_marginTop="20dp"
-           android:layout_marginStart="20dp"
-           android:textStyle="bold"
-           android:textSize="26sp"/>
-
-       <TextView
-           android:id="@+id/tom_task1"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           app:layout_constraintTop_toTopOf="parent"
-           app:layout_constraintBottom_toBottomOf="parent"
-           app:layout_constraintStart_toStartOf="parent"
-           android:layout_marginStart="40dp"
-           android:layout_marginTop="10dp"
-           android:textSize="20sp"
-           android:textColor="@color/black"
-           android:text="Meeting With Client."/>
-
-       <TextView
-           android:id="@+id/tom_task2"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           app:layout_constraintTop_toTopOf="parent"
-           app:layout_constraintBottom_toBottomOf="parent"
-           app:layout_constraintStart_toStartOf="parent"
-           android:layout_marginStart="40dp"
-           android:layout_marginTop="10dp"
-           android:textSize="20sp"
-           android:textColor="@color/black"
-           android:text="Meeting With Client."/>
-
-<!--       <LinearLayout-->
-<!--           android:id="@+id/tomorrow_tasks"-->
-<!--           android:layout_width="match_parent"-->
-<!--           android:layout_height="wrap_content"-->
-<!--           android:layout_marginTop="10dp"-->
-<!--           android:orientation="vertical"-->
-<!--           android:padding="8dp"-->
-<!--           android:visibility="gone">-->
-
-<!--           <include layout="@layout/task_item"/>-->
-<!--           <include layout="@layout/task_item"/>-->
-<!--           <include layout="@layout/task_item"/>-->
-<!--           <include layout="@layout/task_item"/>-->
-<!--       </LinearLayout>-->
-
-       <TextView
-           android:id="@+id/weekly_h1"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:text="Weekly"
-           android:layout_marginTop="20dp"
-           android:layout_marginStart="20dp"
-           android:textStyle="bold"
-           android:textSize="26sp"/>
-
-       <TextView
-           android:id="@+id/we_task1"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           app:layout_constraintTop_toTopOf="parent"
-           app:layout_constraintBottom_toBottomOf="parent"
-           app:layout_constraintStart_toStartOf="parent"
-           android:layout_marginStart="40dp"
-           android:layout_marginTop="10dp"
-           android:textSize="20sp"
-           android:textColor="@color/black"
-           android:text="Meeting With Client."/>
-
-<!--       <LinearLayout-->
-<!--           android:id="@+id/weekly_tasks"-->
-<!--           android:layout_width="match_parent"-->
-<!--           android:layout_height="wrap_content"-->
-<!--           android:layout_marginTop="10dp"-->
-<!--           android:orientation="vertical"-->
-<!--           android:padding="8dp"-->
-<!--           android:visibility="gone">-->
-
-<!--           <include layout="@layout/task_item"/>-->
-<!--           <include layout="@layout/task_item"/>-->
-<!--           <include layout="@layout/task_item"/>-->
-<!--           <include layout="@layout/task_item"/>-->
-<!--       </LinearLayout>-->
-
-       <TextView
-           android:id="@+id/monthly_h1"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:text="Monthly"
-           android:layout_marginTop="20dp"
-           android:layout_marginStart="20dp"
-           android:textStyle="bold"
-           android:textSize="26sp"/>
-
-       <TextView
-           android:id="@+id/mo_task1"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           app:layout_constraintTop_toTopOf="parent"
-           app:layout_constraintBottom_toBottomOf="parent"
-           app:layout_constraintStart_toStartOf="parent"
-           android:layout_marginStart="40dp"
-           android:layout_marginTop="10dp"
-           android:textSize="20sp"
-           android:textColor="@color/black"
-           android:text="Meeting With Client."/>
-
-<!--       <LinearLayout-->
-<!--           android:id="@+id/monthly_tasks"-->
-<!--           android:layout_width="match_parent"-->
-<!--           android:layout_height="wrap_content"-->
-<!--           android:layout_marginTop="10dp"-->
-<!--           android:orientation="vertical"-->
-<!--           android:padding="8dp"-->
-<!--           android:visibility="gone">-->
-
-<!--           <include layout="@layout/task_item"/>-->
-<!--           <include layout="@layout/task_item"/>-->
-<!--           <include layout="@layout/task_item"/>-->
-<!--           <include layout="@layout/task_item"/>-->
-<!--       </LinearLayout>-->
-
-
-   </LinearLayout>
-
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
