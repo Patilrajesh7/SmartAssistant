@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/drawable/create_task_gradient_up.xml" value="0.18489583333333334" />
         <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/drawable/don.xml" value="0.14583333333333334" />
         <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/drawable/festival.xml" value="0.14583333333333334" />
         <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/drawable/share.xml" value="0.14583333333333334" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/drawable/tab_selector.xml" value="0.22447916666666667" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/drawable/tab_theme.xml" value="0.18489583333333334" />
         <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/drawable/taskmanager.xml" value="0.14583333333333334" />
         <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/activity_birthaday_wishese.xml" value="0.1296875" />
         <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/activity_completed_task.xml" value="0.1296875" />
@@ -16,12 +19,18 @@
         <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/activity_profile_settings.xml" value="0.1296875" />
         <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/activity_splash_screen.xml" value="0.1296875" />
         <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/activity_task_manager.xml" value="0.184375" />
-        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/task_item.xml" value="0.12239583333333333" />
-        <entry key="..\:/Users/sundr/AndroidStudioProjects/Gaxa/SmartAssistant/app/src/main/res/drawable/bank.xml" value="0.19166666666666668" />
-        <entry key="..\:/Users/sundr/AndroidStudioProjects/Gaxa/SmartAssistant/app/src/main/res/drawable/shapes.xml" value="0.13148148148148148" />
-        <entry key="..\:/Users/sundr/AndroidStudioProjects/Gaxa/SmartAssistant/app/src/main/res/layout/activity_completed_task.xml" value="0.17552083333333332" />
-        <entry key="..\:/Users/sundr/AndroidStudioProjects/Gaxa/SmartAssistant/app/src/main/res/layout/activity_dashboard.xml" value="0.17552083333333332" />
-        <entry key="..\:/Users/sundr/AndroidStudioProjects/Gaxa/SmartAssistant/app/src/main/res/layout/activity_task_completed.xml" value="0.17552083333333332" />
+
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/fragment_monthly.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/fragment_today.xml" value="0.14" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/fragment_tomorrow.xml" value="0.19427083333333334" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/fragment_weekly.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/task_item.xml" value="0.22" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/task_item_cat1.xml" value="0.20833333333333334" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/task_item_cat2.xml" value="0.19270833333333334" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/task_item_cat3.xml" value="0.19270833333333334" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/task_item_cat4.xml" value="0.19270833333333334" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/task_item_cat5.xml" value="0.19270833333333334" />
+        <entry key="..\:/Android Devopment/AndroidStudioProjects/SmartAssistant/app/src/main/res/layout/task_item_cat6.xml" value="0.19270833333333334" />
       </map>
     </option>
   </component>
