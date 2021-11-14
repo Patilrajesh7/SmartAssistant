@@ -62,9 +62,12 @@ public class Dashboard extends AppCompatActivity {
         card2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Dashboard.this,ComplitedTask.class);
+                Intent intent = new Intent(Dashboard.this,TaskCompleted.class);
                 startActivity(intent);
+
             }
+
+
         });
 
         card3.setOnClickListener(new View.OnClickListener() {
