@@ -27,8 +27,6 @@
 
 
 
-
-
     <style name="Theme.SmartAssistant.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.SmartAssistant.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
