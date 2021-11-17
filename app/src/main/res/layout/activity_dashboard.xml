@@ -219,7 +219,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#4F51E2"
+                    android:background="@drawable/gradient"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -251,7 +251,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#FD8F3A"
+                    android:background="@drawable/gradient"
                     android:gravity="center"
                     android:orientation="vertical">
 
@@ -291,7 +291,7 @@
                 <LinearLayout
                     android:layout_width="155dp"
                     android:layout_height="100dp"
-                    android:background="@color/teal_200"
+                    android:background="@drawable/gradient"
                     android:gravity="center"
                     android:orientation="vertical">
 
