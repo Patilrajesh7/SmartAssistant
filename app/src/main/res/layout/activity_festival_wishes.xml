@@ -1,6 +1,196 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        app:cardElevation="20dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="43dp"
+                android:layout_height="19dp"
+                android:src="@drawable/eid1"
+                android:elevation="12dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/eid" />
+            <ImageView
+                android:layout_width="43dp"
+                android:layout_height="19dp"
+                android:src="@drawable/eid1"
+                android:elevation="12dp"
+                android:layout_marginLeft="43dp"/>
+            <ImageView
+                android:layout_width="43dp"
+                android:layout_height="19dp"
+                android:src="@drawable/eid1"
+                android:elevation="12dp"
+                android:layout_marginLeft="83dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Eid Mubarak"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/n1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:text="sundram"
+                android:textStyle="italic" />
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/eid3"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="40dp"/>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        app:cardElevation="20dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/diwali1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="100dp"
+                android:text="Happy Diwali"
+                android:textColor="#C62828"
+                android:textSize="15dp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:id="@+id/n2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="120dp"
+                android:text="sundram"
+                android:textColor="#C62828" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+//**********************
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card3"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/card1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        app:cardElevation="30dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/india" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Happy Independence Day"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:textColor="#00695C"/>
+
+            <TextView
+                android:id="@+id/n3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Sundram"
+                android:textColor="#283593"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card4"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/card2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        app:cardElevation="20dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/christmas" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Marry Christmas"
+                android:textColor="@color/white"
+                android:textStyle="italic"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/n4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="35dp"
+                android:text="Sundram"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
